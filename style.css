@@ -1,0 +1,78 @@
+*{
+    background-color: black;
+    color: white;
+}
+
+h1{
+    margin-left: 30px;
+}
+
+
+
+.container{
+    //border: 1px solid red;
+    height: 695px;;
+}
+
+span{
+    margin-left: 33px;
+}
+
+input{
+    border: 1px solid;
+    width: 285px;
+    height: 25px;
+    
+}
+
+.lower{
+    margin-top: 30px;
+}
+
+.input2{
+    margin-left: 20px;
+}
+
+.btn{
+    margin-top:30px;
+    margin-left: 33px;
+}
+
+button{
+    background-color: white;
+    color: black;
+    width: 408px;
+    height: 39px;
+}
+
+.information{
+    height: 300px;
+}
+
+table,td,th{
+    border: 1px solid;
+   
+   
+}
+
+table{
+    margin-top: 140px;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+    height: 100%;
+   
+}
+
+td{
+    text-align: center;
+  
+}
+
+
+
+.one{
+    width: 2x;
+}

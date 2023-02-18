@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Document</title>
+</head>
+<body>
+  <div class="container">
+     <div class="upper">
+        <h1>Library Management System</h1>
+        <span>Book Name</span>
+        <span><input class="input" type="text" id="bookName"></span>
+     </div>
+
+
+     <div class="lower">
+        <span>Issued to</span>
+        <span><input class="input2" type="text" id="issuedTo"></span>
+     </div>
+
+     <div class="btn">
+        <button type="submit" id="issuebook" onclick="alert('submitted')"  onclick="issueBook()">Issue Book</button>
+     </div>
+
+     <div class="information ">
+        <table id="issuedBooksTable"   >
+            <tr>
+                <th class="one">Id</th>
+                <th>Book name</th>
+                <th>Issued to</th>
+                <th>Issue Date and Time</th>
+                <th>Status</th>
+            </tr>
+            <tr>
+                <td class="one" id="id">cd</td>
+                <td>mc</td>
+                <td>kd</td>
+                <td>554</td>
+                <td>dl</td>
+            </tr>
+            <tr>
+                <td class="one" id="id">cd</td>
+                <td>mc</td>
+                <td>kd</td>
+                <td>554</td>
+                <td>dl</td>
+            </tr>
+            <tr>
+                <td class="one" id="id">cd</td>
+                <td>mc</td>
+                <td>kd</td>
+                <td>554</td>
+                <td>dl</td>
+            </tr>
+            <tr>
+                <td class="one" id="id">cd</td>
+                <td>mc</td>
+                <td>kd</td>
+                <td>554</td>
+                <td>dl</td>
+            </tr>
+
+         </table>
+    
+     </div>
+
+
+
+  </div> 
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
